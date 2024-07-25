@@ -9,7 +9,7 @@ license = "MIT OR Apache-2.0"
 name = "xmlschema"
 repository = "https://github.com/sebastienrousseau/xmlschema/"
 rust-version = "1.67.1"
-version = "0.0.1"
+version = "0.0.1.alpha-1"
 include = [
     "../../LICENSE-APACHE",
     "../../LICENSE-MIT",
