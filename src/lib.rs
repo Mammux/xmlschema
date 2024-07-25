@@ -114,13 +114,13 @@ struct ComplexContentRestriction {
     attributes: HashMap<String, Attribute>,
 }
 
-struct XmlSchemaParser<'a> {
+pub struct XmlSchemaParser<'a> {
     input: &'a str,
     position: usize,
 }
 
-pub impl<'a> XmlSchemaParser<'a> {
-    fn new(input: &'a str) -> Self {
+impl<'a> XmlSchemaParser<'a> {
+    pub fn new(input: &'a str) -> Self {
         Self { input, position: 0 }
     }
 
