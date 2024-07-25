@@ -119,7 +119,7 @@ struct XmlSchemaParser<'a> {
     position: usize,
 }
 
-impl<'a> XmlSchemaParser<'a> {
+pub impl<'a> XmlSchemaParser<'a> {
     fn new(input: &'a str) -> Self {
         Self { input, position: 0 }
     }
